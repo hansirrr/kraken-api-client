@@ -71,7 +71,7 @@ print_r($res);
  */
 
 // Query public ticker info for BTC/USD pair:
-$res = $kraken->QueryPublic('Ticker', array('pair' => 'XBTCZUSD'));
+$res = $kraken->QueryPublic('Ticker', array('pair' => 'XXBTZUSD'));
 print_r($res);
 
 /**
